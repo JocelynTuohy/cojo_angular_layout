@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title: string = 'Layout';
+  links: Array<object> = [
+    {name: 'Link', url: ''},
+    {name: 'Link', url: ''},
+    {name: 'Link', url: ''}
+  ]
 }

@@ -1,0 +1,26 @@
+*{
+  outline: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+#wrapper{
+  display: block;
+  width: 1000px;
+  padding: 25px;
+  margin: 0 auto;
+}
+/deep/ #wrapper div {
+  background-color: #9FC5F8;
+  border: 2px solid black;
+  font-family: cursive;
+  font-weight: normal;
+  vertical-align: top;
+}
+/deep/ div *{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/deep/ h5{
+  padding-left: 8px;
+}
